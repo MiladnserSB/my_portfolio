@@ -347,7 +347,7 @@
      *********************************************************/
     (function(){
       // preloader hide
-      window.addEventListener('load', function(){
+      window.addEventListener('DOMContentLoaded', function(){
         const pre = document.getElementById('preloader');
         pre.classList.add('hidden');
         setTimeout(()=>pre.remove(),600);
@@ -425,3 +425,4 @@
   </script>
 </body>
 </html>
+
